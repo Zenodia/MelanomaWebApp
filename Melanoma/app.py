@@ -26,6 +26,12 @@ import pandas as pd
 import pickle
 import os, cv2
 import argparse
+## download the melanoma model using urllib,uncomment the below
+"""
+import urllib
+# download .h5 model weight from Azure fileshare using Shared Access Signature (SAS) 
+#urllib.request.urlretrieve('get_SAS_token_from_fileshare', filename = './skin_lesion.h5')
+"""
 
 #custom to us are the labels and the image size
 LABELS = ['melanoma', 'notmelanoma']
