@@ -2,7 +2,7 @@ absl-py==0.2.2
 alabaster==0.7.11
 astor==0.7.1
 astroid==2.0.1
-Babel==2.6.0
+Babel==2.9.1
 backcall==0.1.0
 bleach==1.5.0
 cairocffi==0.9.0
